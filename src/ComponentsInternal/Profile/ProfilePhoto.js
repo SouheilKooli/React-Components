@@ -1,11 +1,11 @@
 import React from 'react';
-import profilPhoto from ".\Components-internal\Profile\profileComponents.png/";
+import profilPhoto from "../Profile/profileComponents.png";
 import {Card} from "react-bootstrap";
-const profilPhoto = () => {
+const ProfilPhoto = () => {
   return (
     <Card.Img variant="top" src={profilPhoto} style={{ borderRadius: "4px" }} />
   );
 };
 
 
-export default ProfilePhoto;
+export default ProfilPhoto;

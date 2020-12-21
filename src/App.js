@@ -1,8 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProfilPhoto from "./Components-internal/Profile/ProfilePhoto.js";
-import FullName from "./Components-internal/Profile/FullName";
-import Address from "./Components-internam/Profile/Address";
+import ProfilPhoto from "./ComponentsInternal/Profile/ProfilePhoto.js";
+import FullName from "./ComponentsInternal/Profile/FullName";
+import Address from "./ComponentsInternal/Profile/Address";
 import {Card, Button} from "react-bootstrap";
 
 function App() {
